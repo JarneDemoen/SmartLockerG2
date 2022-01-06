@@ -1,0 +1,243 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url(/Projectwerk/font/TitilliumWeb-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'MyFont';
+  src: url(/Projectwerk/font/TitilliumWeb-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'MyFont';
+  src: url(/Projectwerk/font/TitilliumWeb-Light.ttf);
+  font-weight: 300;
+}
+
+:root {
+  --blue-accent-color: #1f79ff;
+  --status-available: #008000;
+  --status-soonAvailable: #ffa500;
+  --status-unavailable: #ff0000;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: 'MyFont', arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Customize the background color to match your design.
+   */
+
+::selection {
+  background: var(--blue-accent-color);
+  color: white;
+  text-shadow: none;
+}
+
+/*------------------------------------*\
+    #Elements
+  \*------------------------------------*/
+
+/*
+      Elements: Images
+      ---
+      Default markup for images to make them responsive
+  */
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+/*
+      Elements: typography
+      ---
+      Default markup for typographic elements
+  */
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 48px;
+  /* margin: 0 0 24px; */
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0 0 24px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+  margin: 0 0 24px;
+}
+
+ul,
+ol {
+  padding-left: 24px;
+}
+
+li ul,
+li ol {
+  margin-bottom: 0;
+}
+
+blockquote {
+  font-style: normal;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+figcaption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 8px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: LightGrey;
+  margin: 0 0 24px;
+}
+
+a {
+  color: var(--blue-accent-color);
+}
+
+a:visited,
+a:active {
+  color: #1c75fa;
+}
+
+a:hover,
+a:focus {
+  color: #77aeff;
+}
+
+.header_locker_detail {
+  height: 3.5rem;
+  width: 100%;
+  background-color: var(--blue-accent-color);
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  align-items: center;
+}
+
+.title_header_locker_detail {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.backarrow_header_locker_detail {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  left: 1rem;
+}
+
+.profile_header_locker_detail {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.locker_detail_content {
+  margin: 1.5rem 1.75rem 1.75rem 1rem;
+}
+
+.locker_detail_content_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.25;
+  color: var(--blue-accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.locker_detail_content_info {
+  margin-bottom: 0.5rem;
+}
+
+.locker_detail_content_status_color {
+  color: var(--status-available);
+}
+
+.locker_detail_content_toggleInstructions {
+  margin: 1.5rem 0 0 1.5rem;
+}
+
+.locker_detail_content_toggleSvg {
+  height: 11.25rem;
+  width: 9.375rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.locker_detail_content_instructions {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (min-width: 550px) {
+  :root {
+    text-align: center;
+  }
+}
