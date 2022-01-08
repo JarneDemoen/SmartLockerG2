@@ -253,10 +253,6 @@ a:focus {
   background-color: var(--blue-accent-color-light);
 }
 
-.locker_detail_opmerkingbtn:focus-visible {
-  background-color: var(--blue-accent-color-light);
-}
-
 .centerflex {
   justify-content: center;
   align-items: center;
@@ -291,6 +287,10 @@ a:focus {
 
 .marginbottom {
   margin-bottom: 24px;
+}
+
+.submitbtn:active{
+  background-color: var(--blue-accent-color) !important;
 }
 
 @media (min-width: 550px) {
