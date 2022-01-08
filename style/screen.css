@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'MyFont';
-  src: url(/font/TitilliumWeb-SemiBold.ttf);
+  src: url(/Projectwerk/font/TitilliumWeb-SemiBold.ttf);
   font-weight: 600;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/font/TitilliumWeb-Regular.ttf);
+  src: url(/Projectwerk/font/TitilliumWeb-Regular.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/font/TitilliumWeb-Light.ttf);
+  src: url(/Projectwerk/font/TitilliumWeb-Light.ttf);
   font-weight: 300;
 }
 
