@@ -39,7 +39,7 @@
         <div class="locker_detail_content">
             <p class="locker_detail_content_title">Voetbal locker</p>
             <p class="locker_detail_content_info">Info over waar men de locker kan vinden en
-                                                                                                                                                                                                                                                                                                                waar men het kan gebruiken
+                                                                                                                                                                                                                                                                                                                                                                                                                waar men het kan gebruiken
             </p>
             <div class="locker_detail_content_status">Status:
                 <span class="locker_detail_content_status_color">beschikbaar</span>
@@ -59,9 +59,16 @@
             <p class="locker_detail_content_instructions">4. Breng het materiaal zorgvuldig en op tijd terug</p>
             <p class="locker_detail_content_instructions">5. Sluit de locker</p>
             <div class="centerflex flex">
-                <button class="locker_detail_opmerking flex">Opmerking toevoegen</button>
+                <button class="locker_detail_opmerkingbtn js-opmerkingbtn flex">Opmerking toevoegen</button>
             </div>
         </div>
-
+        <div class="div_locker_detail_opmerking">
+            <form action="#">
+                <textarea class="locker_detail_opmerking" name="opmerking" id="opmerking" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+        <div class="centerflex flex">
+            <button class="locker_detail_opmerkingbtn js-submit marginbottom flex" type="submit">Verzenden</button>
+        </div>
     </body>
 </html>
