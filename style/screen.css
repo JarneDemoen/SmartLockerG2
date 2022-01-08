@@ -270,7 +270,7 @@ a:focus {
   -moz-box-shadow: none;
   box-shadow: none;
   resize: none;
-  font-family: "MyFont";
+  font-family: 'MyFont';
 }
 
 .div_locker_detail_opmerking {
@@ -279,17 +279,16 @@ a:focus {
   border-radius: 5px;
   margin-top: 0.5rem;
   padding: 0.5rem;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
-.js-submit{
+.js-submit {
   display: none;
 }
 
-.marginbottom{
+.marginbottom {
   margin-bottom: 24px;
 }
 
