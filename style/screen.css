@@ -1,21 +1,23 @@
 @font-face {
   font-family: 'MyFont';
-  src: url(/Projectwerk/font/TitilliumWeb-SemiBold.ttf);
+  src: url(/font/TitilliumWeb-SemiBold.ttf);
   font-weight: 600;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/Projectwerk/font/TitilliumWeb-Regular.ttf);
+  src: url(/font/TitilliumWeb-Regular.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/Projectwerk/font/TitilliumWeb-Light.ttf);
+  src: url(/font/TitilliumWeb-Light.ttf);
   font-weight: 300;
 }
 
 :root {
   --blue-accent-color: #1f79ff;
+  --blue-accent-color-light: #4992ff;
+  --blue-accent-color-dark: #1f48ff;
   --status-available: #008000;
   --status-soonAvailable: #ffa500;
   --status-unavailable: #ff0000;
@@ -234,6 +236,30 @@ a:focus {
   line-height: 1.3125rem;
   font-weight: 300;
   margin: 0;
+}
+
+.locker_detail_opmerking {
+  margin-top: 24px;
+  background-color: var(--blue-accent-color);
+  border-style: none;
+  color: white;
+  font-family: 'MyFont';
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.locker_detail_opmerking:hover {
+  background-color: var(--blue-accent-color-light);
+}
+
+.locker_detail_opmerking:focus-visible {
+  background-color: var(--blue-accent-color-light);
+}
+
+.centerflex {
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 550px) {
