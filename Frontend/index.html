@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="apple-touch-icon" sizes="128x128" href="/Projectwerk/img/safe-deposit128.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/Projectwerk/img/safe-deposit32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/Projectwerk/img/safe-deposit16.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="/img/safe-deposit128.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/safe-deposit32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/safe-deposit16.png">
         <link rel="stylesheet" href="style/normalize.css">
         <link rel="stylesheet" href="style/screen.css">
         <script src="script/lockerdetailscript.js"></script>
@@ -39,7 +39,7 @@
         <div class="locker_detail_content">
             <p class="locker_detail_content_title">Voetbal locker</p>
             <p class="locker_detail_content_info">Info over waar men de locker kan vinden en
-                                                                                                                                                                                                                                                                                                                                                                                                                waar men het kan gebruiken
+                                                                                                                                                                                                                                                                                                                                                                                                                                waar men het kan gebruiken
             </p>
             <div class="locker_detail_content_status">Status:
                 <span class="locker_detail_content_status_color">beschikbaar</span>
@@ -58,9 +58,9 @@
             <p class="locker_detail_content_instructions">3. Heb plezier !</p>
             <p class="locker_detail_content_instructions">4. Breng het materiaal zorgvuldig en op tijd terug</p>
             <p class="locker_detail_content_instructions">5. Sluit de locker</p>
-            <div class="centerflex flex">
-                <button class="locker_detail_opmerkingbtn js-opmerkingbtn flex">Opmerking toevoegen</button>
-            </div>
+        </div>
+        <div class="centerflex flex">
+            <button class="locker_detail_opmerkingbtn js-opmerkingbtn flex">Opmerking toevoegen</button>
         </div>
         <div class="div_locker_detail_opmerking">
             <form action="#">
@@ -68,7 +68,12 @@
             </form>
         </div>
         <p class="centerflex flex">
-            <button class="locker_detail_opmerkingbtn submitbtn js-submit marginbottom flex" type="submit">Verzenden</button>
+            <button class="locker_detail_opmerkingbtn submitbtn js-submit flex" type="submit">Verzenden</button>
         </>
+        <div class="locker_detail_popup">
+            <p>Je staat op het punt om het de locker te openen en het materiaal te gebruiken voor x minuten x uur. Vergeet niet het materiaal op tijd terug te brengen en de locker manueel te sluiten</p>
+            <button class="popup_terug">Terug</button>
+            <button class="popup_open">Locker openen</button>
+        </div>
     </body>
 </html>
