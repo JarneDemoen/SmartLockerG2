@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'MyFont';
-  src: url(/font/TitilliumWeb-SemiBold.ttf);
+  src: url(/Frontend/font/TitilliumWeb-SemiBold.ttf);
   font-weight: 600;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/font/TitilliumWeb-Regular.ttf);
+  src: url(/Frontend/font/TitilliumWeb-Regular.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/font/TitilliumWeb-Light.ttf);
+  src: url(/Frontend/font/TitilliumWeb-Light.ttf);
   font-weight: 300;
 }
 
@@ -300,6 +300,17 @@ a:focus {
   padding: 0.5rem;
   border-radius: 1rem;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.popup_terug{
+  margin: 1.5rem;
+  background-color: var(--blue-accent-color);
+  border-style: none;
+  color: white;
+  font-family: 'MyFont';
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 @media (min-width: 550px) {
