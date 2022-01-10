@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'MyFont';
-  src: url(/Projectwerk/font/TitilliumWeb-SemiBold.ttf);
+  src: url(/font/TitilliumWeb-SemiBold.ttf);
   font-weight: 600;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/Projectwerk/font/TitilliumWeb-Regular.ttf);
+  src: url(/font/TitilliumWeb-Regular.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: 'MyFont';
-  src: url(/Projectwerk/font/TitilliumWeb-Light.ttf);
+  src: url(/font/TitilliumWeb-Light.ttf);
   font-weight: 300;
 }
 
@@ -239,7 +239,7 @@ a:focus {
 }
 
 .locker_detail_opmerkingbtn {
-  margin-top: 1.5rem;
+  margin: 1.5rem;
   background-color: var(--blue-accent-color);
   border-style: none;
   color: white;
@@ -274,7 +274,6 @@ a:focus {
   display: none;
   border: 2px solid var(--blue-accent-color);
   border-radius: 5px;
-  margin-top: 0.5rem;
   padding: 0.5rem;
   width: 90%;
   margin-left: auto;
@@ -285,16 +284,27 @@ a:focus {
   display: none;
 }
 
-.marginbottom {
-  margin-bottom: 24px;
+.submitbtn:active {
+  background-color: var(--blue-accent-color) !important;
 }
 
-.submitbtn:active{
-  background-color: var(--blue-accent-color) !important;
+.locker_detail_popup {
+  position: fixed;
+  width: 300px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px; 
+  margin-left: -150px; 
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 @media (min-width: 550px) {
   :root {
     text-align: center;
+    /*filter: blur(8px);*/
   }
 }
